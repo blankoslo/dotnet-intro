@@ -1,0 +1,22 @@
+﻿services:
+  dapperdb:
+    image: postgres
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: password1338
+    volumes:
+      - pgdata:/var/lib/postgresql/dapper-data
+  mytodoapi:
+    environment:
+      DOTNET_ENVIRONMENT: DapperTest
+      CONNECTIONSTRINGS__POSTGRES: "Server=dapperdb;Host=dapperdb;Port=5432;User ID=admin;Password=password1338;Database=postgres;"
+    build:
+      context: ./MyTodoApi.Dapper
+      dockerfile: Dockerfile
+    ports:
+      - "9080:80"
+    depends_on:
+      - dapperdb
+
+volumes:
+  pgdata:
