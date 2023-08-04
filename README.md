@@ -3,7 +3,7 @@
 <img src=https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg width=100/>
 </p>
 
-### TOC
+### Docs
 
 ❓ [Hva er .NET?](./docs/DOTNET.md)
 
@@ -24,3 +24,12 @@
 ## Eksempler
 
 Sjekk ut [samples](./samples/) for eksempler på ulike .NET-applikasjoner.
+
+## Oppgaver
+
+Gå til 👉 [oppgaver](./oppgaver/README.md) 👈
+
+
+---
+©️ Blank 2023
+[slides](./slides/)
