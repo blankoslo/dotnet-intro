@@ -32,7 +32,7 @@ public class Sprites
 var pokemon = new Pokemon("charmander", new Sprites("https://…", "https://…"));
 ```
 
-For klasserkan man benytte [Object initializer syntax](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/object-and-collection-initializers):
+For klasser kan man benytte [Object initializer syntax](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/object-and-collection-initializers):
 
 ```csharp
 // C# class
