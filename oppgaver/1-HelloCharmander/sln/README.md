@@ -13,7 +13,7 @@ public record Sprites(string Front_Default);
 public class PokemonClass
 {
     public string? Name { get; set; }
-    public required SpritesClass Sprites { get; set; }
+    public SpritesClass Sprites { get; set; }
 }
 
 public class SpritesClass

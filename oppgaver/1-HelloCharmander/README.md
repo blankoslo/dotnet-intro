@@ -39,11 +39,10 @@ HttpResponseMessage response = await httpClient.GetAsync(url);
 </details>
 
 <details>
-  <summary>Hint 2 (helpers)</summary>
+  <summary>Hint 2 (json-helpers)</summary>
 
 ---
-
-> [!NOTE] > `using System.Net.Http.Json` gir `HttpClient` ekstra metoder for å håndtere JSON i `GetFromJsonAsync()`
+`using System.Net.Http.Json` gir `HttpClient` ekstra metoder for å håndtere JSON i `GetFromJsonAsync()`
 
 ```diff
 using System.Net.Http;
@@ -58,7 +57,7 @@ var httpClient = new HttpClient();
 </details>
 
 <details>
-  <summary>Hint 3 (filer)</summary>
+  <summary>Hint 3 (skrive filer til disk)</summary>
 
 ---
 
