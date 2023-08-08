@@ -10,6 +10,8 @@ Det finnes innebygde templates i SDKet som kan scaffolde applikasjoner og prosje
 dotnet new <navn-på-template>
 ```
 
+
+
 ### Anatomi
 
 En nærmere titt på helt basic scaffolds:

@@ -10,13 +10,13 @@ public record Sprites(string Front_Default);
 
 ```csharp
 // C# class
-public class PokemonClass
+public class Pokemon
 {
     public string? Name { get; set; }
-    public SpritesClass Sprites { get; set; }
+    public Sprites Sprites { get; set; }
 }
 
-public class SpritesClass
+public class Sprites
 {
     public string? Front_Default { get; set; }
     public string? Back_Default { get; set; }
@@ -28,8 +28,9 @@ public class SpritesClass
 Importer relevante namespaces for `HttpClient`:
 
 ```csharp
-using System.Net.Http.Json;
-using System.Text.Json;
+using System.Net.Http; // HttpClient
+using System.Net.Http.Json; // Extension-metoder for HttpClient
+using System.Text.Json; // JsonSerializer
 ```
 
 ### DYI
