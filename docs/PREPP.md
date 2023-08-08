@@ -11,6 +11,16 @@ dotnet --version
 7.0.305
 ```
 
+Relevante SDK kommandoer:
+
+- `dotnet new`
+- `dotnet restore`
+- `dotnet build`
+- `dotnet add/remove`
+- `dotnet test`
+- `dotnet run`
+- `dotnet publish`
+
 ### Editor
 
 ⚡️ [VS Code](https://code.visualstudio.com/Download) ➕ [VS Code C# Dev Kit Extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit).
