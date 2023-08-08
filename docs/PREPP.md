@@ -16,6 +16,7 @@ Relevante SDK kommandoer:
 - `dotnet new`
 - `dotnet restore`
 - `dotnet build`
+- `dotnet watch`
 - `dotnet add/remove`
 - `dotnet test`
 - `dotnet run`

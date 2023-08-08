@@ -9,6 +9,8 @@
 
 📥 [Prepp og installasjon av tooling](./docs/PREPP.md)
 
+📚 [C#](./docs/CSHARP.md)
+
 🩻 [Scaffolding & anatomi](./docs/anatomi/README.md)
 
 🍝 [Håndtere avhengigheter](./docs/AVHENGIGHETER.md)

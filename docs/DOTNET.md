@@ -2,12 +2,12 @@
 
 .NET er en plattform for å bygge og kjøre applikasjoner.
 
-Les mer på https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet
+Les mer om .NET på [microsoft.com](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet).
 
 ## Språk?
 
-- C#: https://dotnet.microsoft.com/en-us/languages/csharp
-- F#: https://dotnet.microsoft.com/languages/fsharp
+- C#: [[docs](https://dotnet.microsoft.com/en-us/languages/csharp)]
+- F#: [[docs](https://dotnet.microsoft.com/languages/fsharp)]
 
 
 ## Hva kan jeg lage med .NET?

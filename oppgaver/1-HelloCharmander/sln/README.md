@@ -1,28 +1,3 @@
-# Typer i C#
-
-Kan defineres enten som `record` eller `class`
-
-```csharp
-// C# records
-public record Pokemon(string Name, Sprites Sprites);
-public record Sprites(string Front_Default);
-```
-
-```csharp
-// C# class
-public class Pokemon
-{
-    public string? Name { get; set; }
-    public Sprites Sprites { get; set; }
-}
-
-public class Sprites
-{
-    public string? Front_Default { get; set; }
-    public string? Back_Default { get; set; }
-}
-```
-
 # HTTP
 
 Importer relevante namespaces for `HttpClient`:

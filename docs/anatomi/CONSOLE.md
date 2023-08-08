@@ -32,6 +32,26 @@ dotnet new console -n MyConsoleApp
 </Project>
 ```
 
+### ImplicitUsings:
+ `<ImplicitUsings>enable</ImplicitUsings>` [[docs](https://learn.microsoft.com/en-us/dotnet/core/tutorials/top-level-templates#implicit-using-directives)]
+
+Gjør at alle C#-filer du oppretter i prosjektet automatisk inkluderer noen globalt definerte `using`-statements, så man slipper skrive disse manuelt i hver fil.
+
+Default:
+
+
+```csharp
+using System;
+using System.IO;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net.Http;
+using System.Threading;
+using System.Threading.Tasks;
+```
+
+
+
 **Program.cs**
 
 Program.cs er default entryfil i .NET og har alltid en statisk `Main`-metode som tar argumenter (likt med Java).
