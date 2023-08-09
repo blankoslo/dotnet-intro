@@ -23,6 +23,8 @@
 
 🛢️ [Databaser og dataaksess](./docs/DATA.md)
 
+🐳 [Docker](./docs/DOCKER.md)
+
 ## Eksempler
 
 Sjekk ut [samples](./samples/) for eksempler på ulike .NET-applikasjoner.
@@ -31,7 +33,7 @@ Sjekk ut [samples](./samples/) for eksempler på ulike .NET-applikasjoner.
 
 Gå til 👉 [oppgaver](./oppgaver/README.md) 👈
 
-
 ---
+
 ©️ Blank 2023
 [slides](./slides/)

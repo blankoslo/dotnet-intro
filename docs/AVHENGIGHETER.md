@@ -2,8 +2,8 @@
 
 Avhengigheter kalles litt forskjellige ting avh av scenario. "Shared libraries" er enten _Class libraries_ eller _NuGets_ avhengig om de er interne eller eksterne.
 
-1. internt: En applikasjon/prosjekt har en "Project Reference" til et _Class library_.
-2. eksternt: En applikasjon/prosjekt har en "Package Dependency" til en _Nuget-pakke_.
+1. internt: En applikasjon/prosjekt har en "ProjectReference" til et annet prosjekt (eks: et annet _Class library_).
+2. eksternt: En applikasjon/prosjekt har en "PackageReference" til en _Nuget-pakke_.
 
 En offentlig _NuGet_-pakke kan installeres fra en public feed, f.eks. [nuget.org](https://www.nuget.org) (www.npmjs.com for .NET).
 
