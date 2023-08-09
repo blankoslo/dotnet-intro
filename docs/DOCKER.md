@@ -74,3 +74,6 @@ evt:
 
 > [!WARNING]
 > Har man mer komplekse bygg, så er kanskje ikke dette en god løsning.
+
+> [!WARNING]
+> Støtter foreløpig kun Linux-x64 containers (ingen Windows eller ARM).
