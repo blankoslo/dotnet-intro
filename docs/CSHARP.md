@@ -1,5 +1,10 @@
 # C# Basics
 
+- C# 101: https://github.com/dotnet/csharp-notebooks
+
+
+## TLDR:
+
 ## Typer
 
 Kan defineres enten som `record` , `class`
